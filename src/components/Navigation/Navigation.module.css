@@ -1,0 +1,25 @@
+.wraper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.link {
+  min-width: 40px;
+  width: 80px;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  transition: border-color linear 250ms, background-color linear 250ms, color linear 250ms;
+}
+.link:hover {
+  border-color: rgb(0 178 255);
+  color: #fff;
+  background-color: #3c3c3c;
+}
+.active {
+  background-color: rgb(0 178 255);
+  color: #fff;
+  font-weight: 500;
+}

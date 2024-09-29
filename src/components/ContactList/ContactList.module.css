@@ -1,0 +1,19 @@
+.card-list {
+  padding: 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid rgb(60, 60, 60);
+  border-radius: 10px;
+  background-color: rgb(194, 220, 236);
+  width: calc((100% - 48px) / 3);
+  min-width: 304px;
+}

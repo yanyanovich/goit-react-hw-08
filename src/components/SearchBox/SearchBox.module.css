@@ -1,0 +1,28 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.search-label {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.search-input {
+  width: 304px;
+  padding: 6px 12px;
+  outline: none;
+  border: 1px solid rgb(60, 60, 60);
+  border-radius: 10px;
+  font-size: 18px;
+}
+.search-input:focus {
+  border-color: blue;
+}
+.search-input::placeholder {
+  font-size: 14px;
+}

@@ -1,0 +1,27 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0a500a;
+}
+.button {
+  min-width: 40px;
+  width: 80px;
+  height: 37.6px;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 1;
+  transition: background-color linear 250ms, color linear 250ms;
+}
+.button:hover {
+  color: #fff;
+  background-color: #3c3c3c;
+  cursor: pointer;
+}
